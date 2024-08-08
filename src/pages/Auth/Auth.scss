@@ -1,0 +1,27 @@
+#auth-page {
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    #auth-container {
+        width: 400px;
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #fff;
+        padding: 50px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        p {
+            span {
+                color: #007bff;
+                cursor: pointer;
+                font-weight: bold;
+            }
+        }
+    }
+}
