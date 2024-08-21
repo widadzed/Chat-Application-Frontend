@@ -16,7 +16,7 @@ const Chat = ({token, currentUser, currentUsername}) => {
       setUserList(list)
     }
     getUserList();
-  }, [])
+  }, [token])
 
   return (
     <div id='chat-page'>
